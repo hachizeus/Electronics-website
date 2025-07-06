@@ -114,11 +114,11 @@ const Home = () => {
             {features.map((feature, index) => (
               <div 
                 key={index} 
-                className="group bg-gray-50 dark:bg-gray-700 rounded-2xl p-8 text-center hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 hover:scale-105 animate-fade-in-up"
+                className="group bg-white dark:bg-gray-800 rounded-2xl p-8 text-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 animate-fade-in-up border border-gray-100 dark:border-gray-700"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
-                <div className="bg-blue-100 dark:bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-600 group-hover:scale-110 transition-all duration-300">
-                  <div className="group-hover:text-white transition-colors duration-300">
+                <div className="bg-blue-100 dark:bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-500 transition-all duration-300">
+                  <div className="text-blue-600 dark:text-blue-400 group-hover:text-white transition-colors duration-300">
                     {feature.icon}
                   </div>
                 </div>
